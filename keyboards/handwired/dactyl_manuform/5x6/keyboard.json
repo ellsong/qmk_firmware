@@ -7,18 +7,18 @@
         "pid": "0x3536",
         "device_version": "0.0.1"
     },
-    "rgblight": {
-        "led_count": 12
-    },
+    // "rgblight": {
+    //     "led_count": 12
+    // },
     "ws2812": {
         "pin": "D3"
     },
     "features": {
-        "bootmagic": false,
+        "bootmagic": true,
         "command": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": false
+        "nkro": true
     },
     "qmk": {
         "locking": {
@@ -32,10 +32,10 @@
     },
     "diode_direction": "COL2ROW",
     "split": {
-        "enabled": true,
-        "serial": {
-            "pin": "D0"
-        }
+        "enabled": true
+        // "serial": {
+        //     "pin": "D0"
+        // }
     },
     "processor": "atmega32u4",
     "bootloader": "caterina",
